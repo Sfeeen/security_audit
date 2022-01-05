@@ -1,7 +1,7 @@
 # security_audit
-A simple method/demo to show the consequences of a targeted attack of a Windows user.
+A simple method/demo to show the consequences of a targeted attack on a Windows user.
 
-A mail is send to the target with a malicious .exe. stored wifi passwords are mailed to the attacker, a reverse shell is established and the target will be rickerolled every time he/she reboots their pc.
+An e-mail is send to the target with a malicious .exe. stored wifi passwords are mailed to the attacker, a reverse shell is established and the target will be rickerolled every time he/she reboots their pc.
 
 
 ## Steps
@@ -9,7 +9,7 @@ A mail is send to the target with a malicious .exe. stored wifi passwords are ma
     * `script.bat` is copied to the startupfolder of the target. This will result in a rickroll video being started every time you reboot your pc. The bat file was copied from [Maurice Norden](https://github.com/MauriceNorden/rick-roll "MauriceNorden").
     Note that you can also put a bat file here that opens a reverse shell in order the make the attack persistant.
     * All stored wifi passwords are fetched and send to the attacker by email. `mailsender.py` can be configured to send the mail.
-    * A reverse shell is opened to a IP:PORT of your chose. Make sure your port is forwarded to the correct internal ip.
+    * A reverse shell is opened to an IP:PORT of your chose. Make sure your port is forwarded to the correct internal ip.
     
   A simple GUI is made using QtDesigner. It just has a trustworthy name and icon, my gui will do nothing but you can give it legit fucntionality.
   To build the .exe run:

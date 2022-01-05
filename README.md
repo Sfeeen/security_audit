@@ -16,7 +16,7 @@ An e-mail is send to the target with a malicious .exe. stored wifi passwords are
   `pyinstaller.exe --onefile --icon="assets/drivepng.ico" main.py --add-data "assets/;assets"`
  * Send a trustworthy email 
     An email can be send impersonating someone from within the company using online tools e.g. <https://emkei.cz/>. 
-    An attacker could first mail the compagny to obtain their email html template and than use it with the above email sender to be more trustworthy.
+    An attacker could first mail the company to obtain their email html template and than use it with the above email sender to be more trustworthy.
     Attach the .exe
     
     
